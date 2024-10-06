@@ -1,5 +1,5 @@
 numpy
 pandas==1.5.1
-matplotlib==3.3.4
+matplotlib
 scipy
 seaborn==0.12.2
