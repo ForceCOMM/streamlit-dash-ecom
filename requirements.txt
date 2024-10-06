@@ -2,5 +2,4 @@ numpy
 pandas==1.5.1
 matplotlib==3.3.4
 scipy
-streamlit
 seaborn==0.12.2
