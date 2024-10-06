@@ -7,7 +7,7 @@ import streamlit as st  # Mengimpor Streamlit untuk membuat aplikasi web
 state_year_payment_totals = pd.read_csv('dashboard/state_year_month_day_payment_totals.csv')  # Data total pembayaran berdasarkan negara bagian
 most_goods_by_year = pd.read_csv('dashboard/most_goods_by_year.csv')  # Data barang terlaris berdasarkan tahun
 average_review_scores = pd.read_csv('dashboard/average_review_score_sorted_with_timestamp.csv')  # Skor rata-rata ulasan produk
-rfm = pd.read_csv('dasboard/rfm.csv')  # Memuat data segmentasi pelanggan RFM
+rfm = pd.read_csv('dashboard/rfm.csv')  # Memuat data segmentasi pelanggan RFM
 
 # Mengonversi kolom tanggal ke format datetime
 state_year_payment_totals['order_purchase_timestamp'] = pd.to_datetime(
