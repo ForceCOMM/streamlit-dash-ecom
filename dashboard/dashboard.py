@@ -4,9 +4,9 @@ import seaborn as sns  # Mengimpor seaborn untuk visualisasi yang lebih baik
 import streamlit as st  # Mengimpor Streamlit untuk membuat aplikasi web
 
 # Memuat data CSV ke dalam DataFrame
-state_year_payment_totals = pd.read_csv('state_year_month_day_payment_totals.csv')  # Data total pembayaran berdasarkan negara bagian
-most_goods_by_year = pd.read_csv('most_goods_by_year.csv')  # Data barang terlaris berdasarkan tahun
-average_review_scores = pd.read_csv('average_review_score_sorted_with_timestamp.csv')  # Skor rata-rata ulasan produk
+state_year_payment_totals = pd.read_csv('dashboard/state_year_month_day_payment_totals.csv')  # Data total pembayaran berdasarkan negara bagian
+most_goods_by_year = pd.read_csv('dashboard/most_goods_by_year.csv')  # Data barang terlaris berdasarkan tahun
+average_review_scores = pd.read_csv('dashboard/average_review_score_sorted_with_timestamp.csv')  # Skor rata-rata ulasan produk
 rfm = pd.read_csv('rfm.csv')  # Memuat data segmentasi pelanggan RFM
 
 # Mengonversi kolom tanggal ke format datetime
