@@ -1,5 +1,8 @@
 # Analisis Data dengan Python by dicoding
 
+Untuk versi online dapat dilihat pada link berikut: 
+https://app-dash-ecomm.streamlit.app/
+
 ## Ikhtisar
 - [Overview](#overview)
 - [Project Structure](#project-structure)
@@ -9,6 +12,7 @@
 
 ## Overview
 Projek ini berisi implementasi real dari projek akhir analisa data dengan python dengan dataset E-Commerce untuk mempelajari pengimplmetasian dari Course tersebut
+
 
 ## Struktur Paket
 - `dashboard/`: Dashboard dengan streamlit beserta dengan datanya
